@@ -10,7 +10,7 @@ body {
 }
 
 .chat-box {
-    width: 400px;
+    width: 700px;
     background: #f5f5f5;
     border-radius: 16px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
@@ -26,15 +26,6 @@ body {
     border-top-right-radius: 16px;
     transition: background 0.3s;
 }
-
-.chat-box {
-    width: 500px; /* Adjust the width as needed */
-    background: #f5f5f5;
-    border-radius: 16px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    overflow: hidden;
-}
-
 
 .message {
     margin: 10px;
@@ -87,13 +78,14 @@ body {
 }
 
 button {
-    padding: 8px 16px;
+    padding: 10px 20px;
     border: none;
     border-radius: 16px;
     cursor: pointer;
     font-size: 18px;
     background: none;
     transition: background 0.3s, color 0.3s;
+    margin: 0 10px;
 }
 
 #sender-button {
@@ -113,16 +105,26 @@ button {
 }
 
 #translate-button {
-    background: #9B59B6; /* Purple background color */
-    color: #ffffff; /* White text color */
-    padding: 8px 16px;
+    background: #9B59B6;
+    color: #ffffff;
+    padding: 10px 20px;
     border: none;
     border-radius: 16px;
     cursor: pointer;
     font-size: 18px;
     transition: background 0.3s, color 0.3s;
+    margin: 0 10px;
 }
 
 #translate-button:hover {
-    background: rgba(155, 89, 182, 0.8); /* Adjust the hover background color as desired */
+    background: rgba(155, 89, 182, 0.8);
+}
+
+#language-select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    font-size: 16px;
+    background: #fff;
+    margin-right: 10px;
 }
