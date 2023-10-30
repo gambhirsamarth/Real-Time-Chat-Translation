@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 headers: {
                     'Content-Type': 'application/x-www-form-urlencoded',
                     'Accept-Encoding': 'application/gzip',
-                    'X-RapidAPI-Key': '0a15c8f5a3mshae07483d1de9391p1c46b3jsnca25a0b25d4d',
+                    'X-RapidAPI-Key': 'bb97bb9ae8msh043d17a51ff020bp13a3fcjsnd69bfc6f06d1',
                     'X-RapidAPI-Host': 'google-translate1.p.rapidapi.com',
                 },
                 body: encodedParams
